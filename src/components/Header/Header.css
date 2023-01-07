@@ -1,0 +1,18 @@
+nav {
+  background-color: rgb(29, 211, 178);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  margin: 1rem;
+}
+.nav-link:hover {
+  color: black;
+}
+nav .active {
+  color: goldenrod;
+}
